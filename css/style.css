@@ -24,8 +24,6 @@ a {
   text-decoration: none;
 }
 
-/** global classes styling **/
-
 .container {
   max-width: 1000px;
   width: 100%;
@@ -57,4 +55,69 @@ header {
   justify-content: space-around;
   align-items: center;
   background-color: #eee;
+}
+
+#header-img {
+  width: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  /* border: 1px solid black; */
+}
+ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-left: 600px;
+  /* border: 1px solid black; */
+}
+
+li {
+  margin-right: 50px;
+}
+
+#nav-bar {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid black;
+  margin-top: 100px;
+}
+
+.kel {
+  margin: 10px;
+}
+
+.btn {
+  background-color: yellow;
+  border: transparent;
+  width: 170px;
+  height: 30px;
+  margin-left: 70px;
+}
+
+#email {
+  width: 300px;
+  height: 30px;
+}
+
+.grid {
+  margin-top: 100px;
+}
+
+.icon {
+  color: orange;
+  margin-right: 60px;
 }
