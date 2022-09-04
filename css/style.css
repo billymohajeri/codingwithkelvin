@@ -78,8 +78,15 @@ ul {
   /* border: 1px solid black; */
 }
 
+ol {
+  margin-left: 60px;
+}
+
 li {
   margin-right: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 #nav-bar {
@@ -187,9 +194,11 @@ li {
 .btn-1 {
   width: 130px;
   height: 40px;
+  margin-top: 17px;
   border-radius: 5px;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset,
     rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+  margin-right: 60px;
 }
 
 footer {
