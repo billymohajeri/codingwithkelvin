@@ -146,6 +146,9 @@ li {
 .icon {
   color: orange;
   margin-right: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 #how-it-works {
